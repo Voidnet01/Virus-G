@@ -17,7 +17,8 @@ Virus-G es una prueba de concepto (PoC) de un malware visual y sonoro diseñado 
 
 ---
 
-![neon-biohazard-caution-sign-symbol-of-hazard-caused-free-vector](https://github.com/user-attachments/assets/5e030896-f860-4799-b8e8-addb6c5006b6)
+![virus](https://github.com/user-attachments/assets/f4acc8ab-77af-4750-a284-7759e934a8c3)
+
 
 Requisitos:
 
