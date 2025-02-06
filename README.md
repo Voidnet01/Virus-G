@@ -1,6 +1,6 @@
 **Virus G - Descripción General**
 
-                                                                                  ![virus](https://github.com/user-attachments/assets/f4acc8ab-77af-4750-a284-7759e934a8c3)
+  ![virus](https://github.com/user-attachments/assets/f4acc8ab-77af-4750-a284-7759e934a8c3)
 
 
 Virus G es un software malicioso avanzado diseñado para generar caos en las máquinas infectadas, empleando técnicas avanzadas de persistencia, anti-forense y anti-debugging. Su objetivo es sumergir al usuario en una experiencia de terror digital, modificando la apariencia del sistema operativo, bloqueando la pantalla, generando efectos visuales aterradores, y reproduciendo sonidos perturbadores.
