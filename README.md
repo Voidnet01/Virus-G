@@ -1,5 +1,8 @@
 **Virus G - Descripción General**
 
+                                                                                  ![virus](https://github.com/user-attachments/assets/f4acc8ab-77af-4750-a284-7759e934a8c3)
+
+
 Virus G es un software malicioso avanzado diseñado para generar caos en las máquinas infectadas, empleando técnicas avanzadas de persistencia, anti-forense y anti-debugging. Su objetivo es sumergir al usuario en una experiencia de terror digital, modificando la apariencia del sistema operativo, bloqueando la pantalla, generando efectos visuales aterradores, y reproduciendo sonidos perturbadores.
 
 Este malware, una vez ejecutado, se asegura de permanecer oculto y resistente a intentos de desinstalación, persistiendo incluso después de reinicios del sistema. El Virus G está diseñado para ejecutarse automáticamente al iniciar el sistema, lo que garantiza que su impacto sea continuo y prolongado.
@@ -37,8 +40,6 @@ Pantalla bloqueada: El virus muestra un mensaje aterrador en la pantalla, simula
 Mensajes como "¡ESTÁS ATRAPADO!" o "¡ES DEMASIADO TARDE PARA ESCAPAR!" se repiten en la pantalla para aterrorizar al usuario.
 
 ---
-
-![virus](https://github.com/user-attachments/assets/f4acc8ab-77af-4750-a284-7759e934a8c3)
 
 **Futuras Mejoras:**
 Virus G es solo la primera versión de un malware que tiene grandes posibilidades de mejora y expansión. En el futuro, se planean agregar las siguientes funcionalidades:
