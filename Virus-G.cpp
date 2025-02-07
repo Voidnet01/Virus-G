@@ -96,7 +96,7 @@ void bloodRain() {
 
 void flashScreen() {
     while (true) {
-        system("color 0C");  // Rojo sangre
+        system("color 0C");  // Rojo 
         Sleep(200);
         system("color 0A");  // Verde tóxico
         Sleep(200);
@@ -136,7 +136,7 @@ void playScarySounds() {
     srand(time(0));
     while (true) {
         if (rand() % 5 == 0) {
-            mciSendString("play sound1", NULL, 0, NULL);  // Reproducir un sonido espeluznante
+            mciSendString("play sound1", NULL, 0, NULL);  // Reproducir un sonido 
         }
         Sleep(1000);
     }
